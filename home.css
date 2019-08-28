@@ -1,0 +1,323 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family:'Poiret One', cursive;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* header css */
+header nav{
+	
+	margin-top:35px;
+
+}
+header nav .navbar a{
+    
+	margin: 0 20px;
+    color:grey;
+    font-size: 1.375rem;
+	
+}
+header nav .navbar a:link{
+	text-decoration:none;
+}
+.navbar{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-around;
+    
+}
+h1{
+    font-size: 90px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.container{
+	width:910px;
+    margin:auto; 
+}
+header nav{
+	
+	margin-top:35px;
+
+}
+header nav .navbar a{
+    
+	margin: 0 20px;
+    color:grey;
+    font-size: 1.375rem;
+	
+}
+header nav .navbar a:link{
+	text-decoration:none;
+}
+.navbar{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    margin:0 auto;
+}
+.body{
+    margin-top:5%;	
+    margin-bottom: 5%;
+    border-bottom:1px solid grey;
+    border-top:1px solid grey;
+}
+.images1{
+    display:flex;
+    margin-top:2%;
+}
+.images1 img{
+    width:75%;
+    border-radius:15px;
+}
+.images1 h1{
+    margin:2%;
+    font-size:4.45rem;
+    text-align: center;
+}
+.images2{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+.images2 img{
+    width:75%;
+    border-radius:15px;  
+}
+.images2 h1{
+    margin:2%;
+    font-size:4.45rem;
+    text-align: center;
+    
+}
+.setyourgoals{
+    display:flex;
+
+}
+.setyourgoals img{
+    width:10%;
+}
+.setyourgoals h3{
+    text-align: center;
+    font-weight:bold;
+    margin-right:2%;
+    margin-bottom:5%;
+    margin-top:2%;
+}
+.setyourgoals p{
+width:75%;
+}
+.setyourgoals1{
+    display: flex;
+}
+.setyourgoals1 img{
+    width:10%;
+}
+.setyourgoals1 h3{
+    text-align: center;
+    font-weight:bold;
+    margin-right:2%;
+    margin-bottom:5%;
+    margin-top:2%;
+}
+.setyourgoals1 p{
+    width:75%;
+}
+.setyourgoals2{
+    display: flex;
+    border-bottom:1px solid grey;
+}
+.setyourgoals2 img{
+    width:10%;
+}
+.setyourgoals2 h3{
+    text-align: center;
+    font-weight:bold;
+    margin-right:2%;
+    margin-bottom:5%;
+    margin-top:2%;
+}
+.setyourgoals2 p{
+    width:75%;
+}
+.BucketList{
+    margin:5%;
+  
+}
+.BucketList h3{
+    font-weight: bold;
+    text-align: center;
+    margin-top:3%;
+}
+.BucketList p{
+    text-align: center;
+}
+.BucketList button{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    font-size: 1.375rem;
+    border-radius: 12px;
+    background-color: #e7e7e7; color: black;
+}
+.BucketList button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);   
+}
+footer {
+    border-top:1px solid grey;
+	padding: 25px 0px 0px 0px; 
+	
+}
+#copyright {
+	text-align: center;
+	padding: 35px;
+}
+@media (max-width:800px) {
+    .container{
+        width:100%;
+        margin: auto;
+    }
+   .body
+   {
+     width:100%;
+    }
+.top{
+    width:100%;
+}
+.images1{
+    display: none;
+}
+.images2{
+    width:100%;
+    display:flex;
+    flex-direction: column-reverse;
+}
+.images2 img{
+    margin: 0 auto;
+}
+.body2{
+    display: none;
+}
+@media (max-width:500px) {
+    .container {
+        width: 100%;
+        margin: auto;
+      }
+    
+      header {
+       margin:auto;
+        text-align: center;
+        width: 100%;
+      }
+      header .navbar {
+          display: flex;
+          flex-direction: column;
+         margin:auto;
+         font-size:26px;
+         margin-top:5%;
+        }
+      
+        header .navbar a {
+          padding: 20px 0px;
+          border-top: 1px solid black
+          
+        }
+        header .navbar a:last-child {
+          border-bottom: 1px solid black;
+          
+        }
+        .body{
+            border:none;  
+            
+        }
+        .images2 h1{
+            margin-left:10%;
+        }
+        .BucketList{
+           width:95%;
+           
+        }
+        .BucketList h1{
+            font-size:40px;
+        }
+        .BucketList p{
+           width:75%;
+           margin:0 auto;
+        }
+
+
+}
+
+
+}
